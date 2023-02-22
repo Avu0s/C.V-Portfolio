@@ -101,7 +101,7 @@ main {
 .box:hover {
   background: #222;
   color: #fff;
-  border: #444 ;
+  border: 1px solid #444;
 }
 @media (min-width: 700px) {
   .container {
