@@ -66,9 +66,6 @@ main {
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-}
-.projects {
   gap: 1rem;
 }
 .skills > h2,
@@ -76,40 +73,40 @@ main {
   text-align: center;
 }
 hr {
-  background-color: #0A8A0A;
+  background-color: #0a8a0a;
   border: none;
   height: 0.25rem;
   width: 1.5rem;
   border-radius: 0.25rem;
   align-self: center;
 }
-.skillbox {
+.skillbox,
+.projectbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .box {
   display: grid;
   place-items: center;
   gap: 0.5rem;
   text-align: center;
-  border: 1px solid #0A8A0A ;
+  border: 1px solid #0db30d;
   padding: 1.5rem;
   border-radius: 0.25rem;
   max-width: 250px;
   font-size: 0.75rem;
   line-height: 1.25rem;
-  transition: 0.3s ease-in;
+  transition: 0.4s ease-in;
 }
 .box > img {
   height: 40px;
 }
 .box:active,
 .box:hover {
-  background: #222;
-  color: #fff;
-  border: none;
+  border: 1px solid #0a8a0a4d;
+  box-shadow: 0 2px 9px 2px #0a8a0a23;
 }
 .grid {
   background-size: cover;
