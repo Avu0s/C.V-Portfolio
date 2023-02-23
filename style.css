@@ -75,6 +75,13 @@ main {
 .projects > h2 {
   text-align: center;
 }
+hr {
+  background-color: #0A8A0A;
+  border: none;
+  height: 0.25rem;
+  width: 1.5rem;
+  border-radius: 0.25rem;
+}
 .skillbox {
   display: flex;
   flex-wrap: wrap;
