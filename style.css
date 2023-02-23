@@ -102,6 +102,23 @@ main {
   background: #222;
   color: #fff;
 }
+.grid {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.p1 {
+  background-image: url(./pics/6240_n.jpg);
+}
+.p2 {
+  background-image: url(./pics/202212.jpg);
+}
+.p3 {
+  background-image: url(./pics/2023.png);
+}
+.p4 {
+  background-image: url(./pics/7352.jpg);
+}
 @media (min-width: 700px) {
   .container {
     width: 80%;
